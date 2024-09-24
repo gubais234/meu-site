@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica Oral e Medicall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            display: none; /* Esconde as seções por padrão */
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .services, .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service, .member {
+            background-color: white;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            width: 30%;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .centered {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%; /* Ajuste a largura conforme necessário */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Clínica Odontológica Oral e Medicall</h1>
+    <nav>
+        <a href="#sobre" onclick="showSection('sobre')">Sobre Nós</a>
+        <a href="#servicos" onclick="showSection('servicos')">Serviços</a>
+        <a href="#equipe" onclick="showSection('equipe')">Equipe</a>
+        <a href="#contato" onclick="showSection('contato')">Contato</a>
+    </nav>
+</header>
+
+<section id="sobre" style="display: block;"> <!-- Mostra a seção sobre nós por padrão -->
+    <h2>Sobre Nós</h2>
+    <p>Bem-vindo à Clínica Odontológica Oral e Medicall! Nossa missão é proporcionar um atendimento de qualidade e cuidar da saúde bucal dos nossos pacientes com carinho e dedicação.</p>
+    <p>Contamos com uma equipe de profissionais altamente qualificados, sempre prontos para atender suas necessidades. Nossos serviços abrangem desde consultas de rotina até tratamentos especializados, garantindo a melhor experiência possível.</p>
+    <p>Acreditamos que a saúde bucal é fundamental para o bem-estar geral, por isso nos empenhamos em oferecer um ambiente acolhedor e seguro para todos os nossos pacientes.</p>
+    <p>Venha conhecer nossos serviços e descubra como podemos ajudar você a ter um sorriso mais saudável e bonito!</p>
+    <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-10 at 15.43.00 (1).jpeg" alt="Clínica Odontológica" class="centered">
+</section>
+
+<section id="servicos">
+    <h2>Serviços</h2>
+    <div class="services">
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-10 at 15.44.01 (1).jpeg" alt="Consulta Odontológica">
+            <h3>Consultas Odontológicas</h3>
+            <p>Consultas de rotina para avaliação da saúde bucal.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.41.11.jpeg" alt="Limpeza Dental">
+            <h3>Limpeza Dental</h3>
+            <p>Procedimentos para manter seus dentes saudáveis e brilhantes.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.27.34.jpeg" alt="Clareamento Dental">
+            <h3>Clareamento Dental</h3>
+            <p>Tratamentos para um sorriso mais branco e radiante.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.10.46.jpeg" alt="Tratamento de Canal">
+            <h3>Tratamento de Canal</h3>
+            <p>Tratamento para dentes com infecção, visando salvá-los.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.47.35.jpeg" alt="Prótese Dentária">
+            <h3>Prótese Dentária</h3>
+            <p>Substituição de dentes perdidos com próteses de alta qualidade.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.17.58.jpeg" alt="Ortodontia">
+            <h3>Ortodontia</h3>
+            <p>Correção de dentes e mandíbulas com aparelhos ortodônticos.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.59.30.jpeg" alt="Extração Dental">
+            <h3>Exodontia</h3>
+            <p>Remoção de dentes que não podem ser salvos.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.26.11.jpeg" alt="Implante Dentário">
+            <h3>Implante Dentário</h3>
+            <p>Implantes para substituição de dentes perdidos de forma duradoura.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.05.15.jpeg" alt="Harmonização Facial">
+            <h3>Harmonização Facial</h3>
+            <p>Procedimentos para melhorar a estética facial, integrando o sorriso.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 12.31.40.jpeg" alt="Periodontia">
+            <h3>Periodontia</h3>
+            <p>Tratamentos para doenças gengivais e manutenção da saúde periodontal.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-13 at 22.04.38 (1).jpeg" alt="Odontopediatria">
+            <h3>Odontopediatria</h3>
+            <p>Cuidados dentários especializados para crianças e adolescentes.</p>
+        </div>
+        <div class="service">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 11.57.13.jpeg" alt="Dentística Estética">
+            <h3>Dentística Estética</h3>
+            <p>Procedimentos para melhorar a estética dos dentes, como facetas.</p>
+        </div>
+    </div>
+</section>
+
+<section id="equipe">
+    <h2>Nossa Equipe</h2>
+    <div class="team">
+        <div class="member">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 13.02.33.jpeg" alt="Dr. João Silva">
+            <h3>Dra. Rainne Dantas</h3>
+            <p>Especialista em Ortodontia com mais de 4 anos de experiência.</p>
+        </div>
+        <div class="member">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 13.07.07.jpeg" alt="Dra. Maria Oliveira">
+            <h3>Dra. Janielly Costa</h3>
+            <p>Odontopediatra dedicada ao cuidado da saúde bucal infantil.</p>
+        </div>
+        <div class="member">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 13.12.15.jpeg" alt="Dr. Carlos Santos">
+            <h3>Dr. Gilberto Filho</h3>
+            <p>CEO da clinica Oral e Medicall. Expert em clareamentos profissionais, próteses dentárias e implantes. Apaixonado por transformar sorrisos.</p>
+        </div>
+        <div class="member">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 13.20.21.jpeg" alt="Dra. Ana Costa">
+            <h3>Dr. Sivanilson Medeiros</h3>
+            <p>Especialista em exodontia e limpeza de dentes, com enfoque em tratamentos preventivos.</p>
+        </div>
+        <div class="member">
+            <img src="c:\Users\Gabriel Dantas\Downloads\WhatsApp Image 2024-09-23 at 13.25.08 (1).jpeg" alt="Dra. Fernanda Lima">
+            <h3>Dra. Raphaella Leite</h3>
+            <p>Profissional em Estética Dental, Botox e Preenchimento Labial. Sempre atualizada com as novas tendências.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para agendar sua consulta!</p>
+    <p>Endereço: Rua Adalto Soares, 82, Centro, Cuité-PB</p>
+    <p>Telefone: <a href="tel:+5583999506810">(83) 99950-6810</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Clínica Odontológica Oral e Medicall. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    function showSection(sectionId) {
+        // Esconde todas as seções
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            section.style.display = 'none';
+        });
+
+        // Mostra a seção selecionada
+        const selectedSection = document.getElementById(sectionId);
+        selectedSection.style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
